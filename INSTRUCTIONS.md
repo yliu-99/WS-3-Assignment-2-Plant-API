@@ -17,11 +17,13 @@ A full-stack web app for tracking a personal plant collection. Built with **Expr
 ## Database Setup
 
 1. Start MAMP and open **phpMyAdmin**
-2. Create a database named `yuhans_plant_shelf`
-3. Create a user `plant_shelf_visitor` with password `plantsarenice88` and grant it full access to the database
+2. Create a database — you can use any name (e.g. `yuhans_plant_shelf`)
+3. Create a MySQL user with a password of your choice and grant it full access to your database
 4. Import the SQL files in this order (order matters due to the foreign key):
    - `api/tables/plant_types.sql`
    - `api/tables/plants.sql`
+
+> **Customizing credentials?** Update the `database`, `user`, and `password` values in `api/db.js` to match what you set up in phpMyAdmin.
 
 > **Using a different MySQL port?** Open `api/db.js` and update the `port` value to match your setup (default is `8889` for MAMP, `3306` for standard MySQL).
 
