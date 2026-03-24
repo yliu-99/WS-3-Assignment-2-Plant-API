@@ -2,6 +2,8 @@
 
 A full-stack web app for tracking a personal plant collection. Built with **Express** (API) and **React + Vite** (front-end), using a **MySQL** database.
 
+> **Note:** The database name, credentials, table names, and plant data used here are just examples. Feel free to replace them with your own.
+
 ---
 
 ## Prerequisites
