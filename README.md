@@ -1,0 +1,2 @@
+# WS-3-Assignment-2-Plant-API
+A full-stack digital plant shelf app built with React and Express.  Track your houseplants with names, species, type, size, purchase date,  and photos. Features a MySQL database with full CRUD operations, image  uploads via Multer, and filtering by plant type.  Built for MDIA 4294 Web Scripting 3 at BCIT.  Tech: React, Vite, React Router, Express, MySQL2, Multer, CORS
